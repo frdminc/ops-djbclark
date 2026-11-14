@@ -53,7 +53,7 @@ ops-worktrees/
 | site-private | `djbclark/site-private` | Private site configuration |
 | site-djbclark | `djbclark/site-djbclark` | Public site / ansible playbooks |
 | Shizuku | `frdminc/Shizuku` | Fork (RikkaApps → thedjchi → frdminc) — Android permission broker stayturgid depends on. Own independent release cadence (`v13.7.0-thedjchi+stayturgid-releaseNN` tags) — NOT part of the ops-vX.Y.Z coordinated release suite. |
-| ops-djbclark | `djbclark/ops-djbclark` | Control-plane repo: shared Beads task DB + Ralph TUI config routing tasks across the other four. No app code, no release process of its own. |
+| ops-djbclark | `frdminc/ops-djbclark` | Control-plane repo: shared Beads task DB + Ralph TUI config routing tasks across the other four. No app code, no release process of its own. |
 
 Added 2026-08-01 as part of the Ralph TUI + Beads orchestration migration
 (see `ops-djbclark`'s README for the rationale). stayturgid/site-private/
