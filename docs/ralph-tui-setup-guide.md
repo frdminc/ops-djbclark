@@ -118,7 +118,7 @@ site-private / Shizuku:
   as every other piece of work in `ops-worktrees`. `main/<repo>` is never
   touched by any Ralph controller.
 - **One single shared Beads DB**, not per-repo federation — the
-  control-plane repo `djbclark/ops-djbclark`
+  control-plane repo `frdminc/ops-djbclark`
   (`~/src/ops-worktrees/main/ops-djbclark`, `.beads/` prefix `ops-djbclark`).
   Chosen over `bd repo add`/federation because every controller runs on the
   same machine — one shared directory sidesteps Dolt-remote/JSONL sync
@@ -296,7 +296,7 @@ its own one `--parent <epicId>`).
 (parented under the Shizuku epic `ops-djbclark-bk7`) — the
 orphaned-checkout anomaly found in `~/src/Shizuku` during this migration
 (also filed as
-[ops-djbclark#1](https://github.com/djbclark/ops-djbclark/issues/1) since
+[ops-djbclark#1](https://github.com/frdminc/ops-djbclark/issues/1) since
 `frdminc/Shizuku` has GitHub issues disabled). Not investigated further or
 fixed — tracked only, per explicit instruction.
 
